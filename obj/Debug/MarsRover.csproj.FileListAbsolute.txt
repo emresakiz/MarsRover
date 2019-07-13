@@ -1,0 +1,6 @@
+C:\Users\Emre-PC\Desktop\MarsRover\MarsRover\bin\Debug\MarsRover.exe.config
+C:\Users\Emre-PC\Desktop\MarsRover\MarsRover\bin\Debug\MarsRover.exe
+C:\Users\Emre-PC\Desktop\MarsRover\MarsRover\bin\Debug\MarsRover.pdb
+C:\Users\Emre-PC\Desktop\MarsRover\MarsRover\obj\Debug\MarsRover.csprojResolveAssemblyReference.cache
+C:\Users\Emre-PC\Desktop\MarsRover\MarsRover\obj\Debug\MarsRover.exe
+C:\Users\Emre-PC\Desktop\MarsRover\MarsRover\obj\Debug\MarsRover.pdb
