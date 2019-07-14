@@ -8,6 +8,7 @@ namespace MarsRover
 {
     class Program
     {
+        public static List<string> coordinates = new List<string>();
         public static void MovingRobot(int upperRightX, int upperRightY)
         {
             try
@@ -63,9 +64,21 @@ namespace MarsRover
                             break;
                     }
                 }
+                coordinates.Add(currentX.ToString() + " " + currentY.ToString() + " " + direction.ToString());
 
-                Console.WriteLine(currentX.ToString() + " " + currentY.ToString() + " " + direction.ToString());
-                MovingRobot(upperRightX, upperRightY);
+                //Console.WriteLine(currentX.ToString() + " " + currentY.ToString() + " " + direction.ToString());
+                if(coordinates.Count  != 2)
+                {
+                    MovingRobot(upperRightX, upperRightY);
+                }
+                else
+                {
+                    foreach (string item in coordinates)
+                    {
+                        Console.WriteLine(item);
+                    }
+                }
+               
             }
             catch (Exception)
             {
@@ -81,7 +94,7 @@ namespace MarsRover
 
                 int upperRightX = Convert.ToInt32(upperRight.Split(' ')[0]);
                 int upperRightY = Convert.ToInt32(upperRight.Split(' ')[1]);
-
+                
                 MovingRobot(upperRightX, upperRightY);
             }
             catch (Exception)
