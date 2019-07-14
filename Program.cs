@@ -65,8 +65,6 @@ namespace MarsRover
                     }
                 }
                 coordinates.Add(currentX.ToString() + " " + currentY.ToString() + " " + direction.ToString());
-
-                //Console.WriteLine(currentX.ToString() + " " + currentY.ToString() + " " + direction.ToString());
                 if(coordinates.Count  != 2)
                 {
                     MovingRobot(upperRightX, upperRightY);
